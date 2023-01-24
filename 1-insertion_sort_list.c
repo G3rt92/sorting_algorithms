@@ -34,7 +34,7 @@ void insertion_sort_list(listint_t **list)
 
 			if (tmp->prev)
 				node = tmp->prev;
-			
+
 			else
 				*list = tmp;
 
